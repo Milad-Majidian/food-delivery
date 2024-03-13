@@ -16,7 +16,7 @@ const preOrders = [
 ];
 export default function RecentlyPreOrders() {
   return (
-    <div className="w-full flex flex-col justify-start items-start gap-4 mt-[60px]">
+    <div className="w-full flex flex-col justify-start items-start gap-4 mt-[40px]">
       <h3 className="text-[18px] font-normal text-secondary-secondaryTwo">
         Recently Pre Orders
       </h3>

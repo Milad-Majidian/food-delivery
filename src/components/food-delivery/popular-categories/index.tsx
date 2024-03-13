@@ -35,7 +35,7 @@ const popularCategories = [
 
 export default function PopularCategories() {
   return (
-    <div className="w-full flex flex-col justify-start items-start gap-4 mt-[60px]">
+    <div className="w-full flex flex-col justify-start items-start gap-4 mt-[30px]">
       <h3 className="text-[14px] font-bold text-secondary-secondaryTwo">
         Popular Categories
       </h3>
@@ -44,7 +44,7 @@ export default function PopularCategories() {
           <div
             key={index}
             className="bg-secondary-secondaryOne w-[100px] h-[150px] flex flex-col justify-center 
-            items-center gap-3 rounded-full p-6"
+            items-center gap-3 rounded-full py-6 px-5"
           >
             <img src={category.img} alt={category.name} />
             <span className="font-bold">{category.name}</span>
